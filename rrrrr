@@ -1,0 +1,19 @@
+from tkinter import *
+from tkinter import ttk
+
+b=0
+i = b+80
+root = Tk()
+
+root.title('HomeWork')
+root.geometry('400x400')
+root.wm_resizable(width=False, height=False)
+
+canvas = Canvas(root, bg='white', width=400, height=400)
+while i>400:
+    i=i+80==i+80
+print(i)
+
+canvas.pack()
+
+root.mainloop()
